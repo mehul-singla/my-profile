@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Tell the browser how to display text characters correctly. -->
+    <meta charset="UTF-8">
+
+    <!-- Make the page fit properly on phones, tablets, and computers. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- The title appears in the browser tab and in search results. -->
+    <title>Mehul Singla | Personal Profile</title>
+
+    <!-- Connect this HTML file to our separate CSS stylesheet. -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Load Font Awesome so we can use simple social and contact icons. -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- The container keeps the profile centered and prevents it becoming too wide. -->
+    <div class="container">
+
+        <!-- INTRODUCTION CARD: name, short headline, photo, and personal introduction. -->
+        <div class="card-white text-center" id="introduction">
+            <!--
+                Add your own photo to this folder and name it profile.jpg.
+                If you use a different filename, update the src value below.
+            -->
+            <img src="images/Linkedin profile pic.png"
+                 alt="My profile picture"
+                 class="profile-image">
+
+            <h1>Hello, I'm Mehul</h1>
+            <p class="subtitle">MBA student | Investing enthusiast | Curious across disciplines</p>
+
+            <!-- This bio is written to sound personal and thoughtful, not overly corporate. -->
+            <p>
+                I am an MBA student at IIM Bangalore and an exchange student at HEC Paris,
+                with a background in economics and finance. I am fascinated by investing
+                because it brings together analytical rigour, human behaviour, and the
+                challenge of making decisions under uncertainty. I enjoy questioning
+                conventional wisdom, testing ideas from different angles, and connecting
+                lessons from seemingly unrelated fields: from sport and strategy games
+                to markets and philosophy
+            </p>
+
+            <!-- Replace the placeholder URL with your real LinkedIn profile when ready. -->
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+               class="button">Connect with me <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+
+        <!-- EDUCATION CARD: each entry is grouped in a reusable education-item division. -->
+        <div class="card-white">
+            <h2><i class="fa-solid fa-graduation-cap section-icon"></i> Education</h2>
+
+            <div class="education-item">
+                <h3>HEC Paris</h3>
+                <p class="item-detail">Exchange student</p>
+                <p>Exploring management and business in an international academic environment</p>
+            </div>
+
+            <div class="education-item">
+                <h3>Indian Institute of Management Bangalore</h3>
+                <p class="item-detail">MBA</p>
+                <p>Institute Rank 3, reflecting a strong academic record and a commitment to learning</p>
+            </div>
+
+            <div class="education-item">
+                <h3>Ashoka University</h3>
+                <p class="item-detail">B.Sc. in Economics and Finance</p>
+                <p>Built a foundation in economic reasoning, financial analysis, and markets</p>
+            </div>
+        </div>
+
+        <!-- PROFESSIONAL EXPERIENCE CARD: reverse-chronological work experience. -->
+        <div class="card-white">
+            <h2><i class="fa-solid fa-briefcase section-icon"></i> Professional Experience</h2>
+
+            <div class="experience-item">
+                <h3>Indus Insights</h3>
+                <p class="item-detail">Associate II | October 2023 – May 2025</p>
+                <ul>
+                    <li>Built Power BI dashboards and analysed automation strategies, customer journeys, and business risks</li>
+                    <li>Used SQL and analytical modelling to evaluate loan renewals, credit risk, and customer behaviour</li>
+                    <li>Worked with stakeholders to improve decision-making, risk detection, and performance tracking</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>Invasset</h3>
+                <p class="item-detail">Analyst | June 2023 – October 2023</p>
+                <ul>
+                    <li>Researched and backtested options-trading strategies across different expiry and volatility conditions.</li>
+                    <li>Evaluated strategy performance using historical data and scenario analysis.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>Motilal Oswal Alternate Asset Managers</h3>
+                <p class="item-detail">M&amp;A Research Intern | June 2022 – August 2022</p>
+                <ul>
+                    <li>Prepared an electric-vehicle industry report and researched potential market opportunities</li>
+                    <li>Conducted commercial due diligence on footwear and gifting businesses and benchmarked competitors</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>Findoc Investment</h3>
+                <p class="item-detail">Equity Research Intern | May 2021 – July 2021</p>
+                <ul>
+                    <li>Screened stocks, prepared investment pitch decks, and analysed company valuations and unit economics.</li>
+                    <li>Tracked quarterly results and compared investment ideas with sector and market performance</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- INTERESTS CARD: personal interests help make the profile feel human. -->
+        <div class="card-white">
+            <h2><i class="fa-solid fa-compass section-icon"></i> Interests &amp; Hobbies</h2>
+
+            <div class="interest-item">
+                <h3><i class="fa-solid fa-futbol interest-icon"></i> Sports</h3>
+                <p>
+                    I enjoy watching and playing sports, especially cricket and football.
+                    Sport is also a way for me to think about strategy, decision-making,
+                    teamwork, and how small choices can change an outcome.
+                </p>
+            </div>
+
+            <div class="interest-item">
+                <h3><i class="fa-solid fa-chess interest-icon"></i> Strategy games</h3>
+                <p>
+                    Strategy board games appeal to my love of reasoning through uncertainty,
+                    anticipating other people's decisions, and adapting when a plan changes
+                </p>
+            </div>
+
+            <div class="interest-item">
+                <h3><i class="fa-solid fa-book-open interest-icon"></i> Mythology &amp; philosophy</h3>
+                <p>
+                    I like exploring stories and ideas that examine human nature, values,
+                    and the way people make sense of the world
+                </p>
+            </div>
+
+            <div class="interest-item">
+                <h3><i class="fa-solid fa-earth-europe interest-icon"></i> Travel &amp; new perspectives</h3>
+                <p>
+                    Travelling helps me see familiar questions from a different perspective.
+                    More broadly, I enjoy connecting ideas across domains and applying a
+                    lesson from one field to a problem in another
+                </p>
+            </div>
+        </div>
+
+        <!-- FUTURE GOALS CARD: a concise statement of long-term ambition. -->
+        <div class="card-white">
+            <h2><i class="fa-solid fa-chart-line section-icon"></i> Looking Ahead</h2>
+            <p>
+                In the long term, I hope to build my own investment firm. For me, that ambition
+                starts with learning to think independently, understand businesses deeply,
+                and make decisions with both conviction and humility
+            </p>
+        </div>
+
+        <!-- FOOTER: social links are laid out horizontally using the list-inline class. -->
+        <div class="card-white text-center">
+            <h2>Let's Connect</h2>
+            <p>I am always happy to exchange ideas about investing, strategy, sport, or books</p>
+
+            <ul class="list-inline">
+                <li>
+                    <!-- Replace the URL with your own LinkedIn profile. -->
+                    <a href= "https://www.linkedin.com/in/mehul-singla-a89a211a2/" target="_blank" rel="noopener noreferrer"
+                       aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <!-- Add your actual Substack URL here if you want to share it. -->
+                    <a href="https://substack.com/@mehulsingla" target="_blank" rel="noopener noreferrer"
+                       aria-label="Substack">
+                        <i class="fa-brands fa-substack"></i>
+                    </a>
+                </li>
+                <li>
+                    <!-- Email link opens the visitor's default email application. -->
+                    <a href="mailto:MEHULSINGLA2001@gmail.com" aria-label="Email Mehul">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- A small footer note; update the year if you reuse this page in the future. -->
+            <p class="footer-note">Designed by Mehul Singla · HEC Paris</p>
+        </div>
+
+    </div>
+</body>
+</html>
